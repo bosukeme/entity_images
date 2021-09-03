@@ -121,7 +121,7 @@ def get_username_from_search(entity):
 
         try:
             image_links = [a['image'] for a in image_links_result["image_results"]][:20]
-            print(image_links[:4])
+            print(image_links[:1])
         except:
             image_links = []
 
