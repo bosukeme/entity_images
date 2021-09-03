@@ -7,6 +7,8 @@ import urllib.request
 from pymongo import MongoClient
 from decouple import config as env_config
 
+SERP_VALUE = env_config("SERP_VALUE")
+
 MONGO_URL_1 = env_config("MONGO_URL_1")
 MONGO_URL_2 = env_config("MONGO_URL_2")
 
